@@ -1,0 +1,9 @@
+# Ignore the entire APP directory
+APP/
+
+# If you want to keep specific files in APP, uncomment and adjust examples below:
+# !APP/.gitkeep
+# !APP/keep-this.js
+# Ignore only certain types under APP (example):
+# APP/*.log
+# APP/**/*.tmp
