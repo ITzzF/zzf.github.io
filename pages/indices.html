@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <title>各个指数 - ZZF</title>
+  <title>各类指数 - ZZF</title>
   <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 <body class="is-preload">
@@ -18,7 +18,7 @@
         <ul>
           <li><a href="../index.html"><span class="icon solid fa-home">首页</span></a></li>
           <li><a href="viewer.html"><span class="icon solid fa-th">影像查看</span></a></li>
-          <li><a class="active" href="#"><span class="icon solid fa-chart-area">各个指数</span></a></li>
+          <li><a class="active" href="#"><span class="icon solid fa-chart-area">各类指数</span></a></li>
           <li><a href="border.html"><span class="icon solid fa-draw-polygon">边框</span></a></li>
           <li><a href="llm.html"><span class="icon solid fa-robot">大模型</span></a></li>
         </ul>
@@ -31,7 +31,7 @@
     <section class="two app-section">
       <div class="container">
         <header>
-          <h2>各个指数</h2>
+          <h2>各类指数</h2>
         </header>
         <div class="app-iframe-wrap">
           <iframe class="app-iframe" src="https://ee-zzf.projects.earthengine.app/view/app1" allowfullscreen></iframe>
@@ -49,5 +49,38 @@
   <script src="../assets/js/breakpoints.min.js"></script>
   <script src="../assets/js/util.js"></script>
   <script src="../assets/js/main.js"></script>
+  <!-- Dify Chatbot Embed -->
+			<script>
+			 window.difyChatbotConfig = {
+			  token: 'ignxztKX12Twk5S1',
+			  baseUrl: 'http://127.0.0.1',
+			  inputs: {
+			    // 可以在此定义 Start 节点的输入变量，例如：name: "NAME"
+			  },
+			  systemVariables: {
+			    // user_id: '可选：自定义用户ID',
+			    // conversation_id: '可选：自定义会话ID（UUID）',
+			  },
+			  userVariables: {
+			    // avatar_url: '可选：自定义头像URL',
+			    // name: '可选：自定义用户名',
+			  },
+			 }
+			</script>
+			<script
+			 src="http://127.0.0.1/embed.min.js"
+			 id="ignxztKX12Twk5S1"
+			 defer>
+			</script>
+			<style>
+			  /* 聊天悬浮按钮与窗口自定义样式 */
+			  #dify-chatbot-bubble-button {
+			    background-color: #1C64F2 !important;
+			  }
+			  #dify-chatbot-bubble-window {
+			    width: 24rem !important;
+			    height: 40rem !important;
+			  }
+			</style>
 </body>
 </html>
